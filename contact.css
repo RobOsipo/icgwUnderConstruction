@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+  }
+  
+  body {
+    background: rgb(48, 45, 45);
+    color: white;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .nav{
+      margin: 10px;
+      text-decoration: none;
+      color: lightblue;
+  }
+ 
+
+  .nav:hover{
+      cursor: pointer;
+      color: rgb(35, 75, 88);
+  }
+
+
+  @media screen and (max-width: 1300px)  {
+   .fix{
+       padding-left: 40px;
+   }
+  }
+
+  .header{
+    background: rgb(29, 28, 28);
+      height: 90px;
+      display: flex;
+      align-items: center;
+  }
+
+  .header-text {
+      padding: 30px 40px;
+      font-size: 30px;
+      letter-spacing: 1.5px;
+      word-spacing: 5px;
+  }
+
+/* Mailing and shipping info and pic */
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.icgw {
+    padding-top: 15px;
+    height: 400px;
+    width: 400px;
+}
+
+.mailing-shipping {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mail {
+    border-bottom: white 1px solid;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+
+  /* Form  */
+
+
+  .send {
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+  }
+
+.contact-form{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+  .form-top{
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+  }
+
+  .form-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .submit {
+      width: 100px;
+      height: 30px;
+      margin-top: 10px;
+  }
+
+
+  .contact-form{
+      padding-bottom: 20px;
+  }
+
+
+  button{
+      width: 100px;
+      height: 40px;
+
+  }
+
+  button:hover{
+      
+      background-color: #03a9f4 ;
+     
+     cursor: pointer;
+  }
+
+
+
+     /*///////////////////// Footer ////////////////////// */
+
+     .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(29, 28, 28);;
+        height: 75px;
+      }
+   
+      .contact-us{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        
+      }
+   
+      .contact {
+        color: whitesmoke;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 20px;
+      }
+   
+      .contact:hover {
+        color: #03a9f4 ;
+        
+        cursor: pointer;
+        
+      }
+
+      .or{
+          margin-left: 10px;
+          margin-right: 10px;
+          font-weight: 800;
+          font-size: 25px;
+      }
+
+
+
+       /* media query */
+
+  @media screen and (max-width: 800px) {
+  .info-container{
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      padding: 20px;
+      margin-top: 75px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .header{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 200px;
+  }
+
+  .header-text{
+      text-align: center;
+  }
+
+  .none{
+      display: none;
+  }
+
+  .mailing-shipping{
+      text-align: center;
+
+  }
+
+  .mail{
+      padding-bottom: 10px;
+  }
+  p{
+      padding-bottom: 20px;
+  }
+  }

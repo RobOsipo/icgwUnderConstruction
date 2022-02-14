@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+}
+
+body{
+    height:100%;
+}
+
+
+
+main{
+    height: 100%;
+    background-image: url('./img-index/jessica-hero-full-burn.jpg');
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    font-family: roboto, arial, helvetica;
+    /* margin-bottom: 100px; */
+}
+
+h2{
+    margin: 50px;
+    color: aliceblue;
+    
+    text-shadow: rgb(52, 52, 59) 0px 0px 10px;
+}
+
+.contact{
+    text-decoration: none;
+    color: #03a9f4 ;
+    font-size: 68px;
+}
+
+.contact:hover{
+    cursor: pointer;
+    color: #283f49;
+}
